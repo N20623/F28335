@@ -9,8 +9,9 @@
 
 void ConfigInterrupt(void){
 
+
     InitPieCtrl();
-    IER=0x0000;
-    IFR=0x0000;
+    IER = 0x0000;
+    IFR = 0x0000;
     InitPieVectTable();
 }
